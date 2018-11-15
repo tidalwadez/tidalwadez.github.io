@@ -40,7 +40,7 @@ PAGEBUILDER: reus_cddev_donation_form_js
   //   });
 
 
- $('.mobile-nav .sub-nav-open-close').mouseenter(function () {
+ $('.mobile-nav .sub-nav-open-close').click(function () {
         //slide up all the link lists
         $('.sub-nav, .sub-sub-nav').slideUp('slow');
         // $('.sub-nav-open-close').html('&#10133;').parent().removeClass('sub-active');
@@ -52,7 +52,7 @@ PAGEBUILDER: reus_cddev_donation_form_js
         }
     });
 
-  $('.mobile-nav .sub-sub-nav-open-close').mouseenter(function () {
+  $('.mobile-nav .sub-sub-nav-open-close').click(function () {
         //slide up all the link lists
         $('.sub-sub-nav').slideUp('slow');
         // $('.sub-sub-nav-open-close').html('&#10133;').parent().removeClass('sub-sub-active');
