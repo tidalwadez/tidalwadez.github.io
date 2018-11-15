@@ -29,11 +29,11 @@ PAGEBUILDER: reus_cddev_donation_form_js
 
   // $('.mobile-nav .sub-sub-nav-open-close').hover(function () {
   //       //slide up all the link lists
-  //       $('.sub-sub-nav').slideUp();
+  //       $('.sub-sub-nav').slideToggle();
   //       $('.sub-sub-nav-open-close').html('&#10133;').parent().removeClass('sub-sub-active');
   //       //slide down the link list below the h3 clicked - only if its closed
   //       if (!$(this).next().is(':visible')) {
-  //           $(this).next().slideDown();
+  //           $(this).next().slideToggle();
   //           $('.sub-sub-nav-open-close').html('&#10133;').parent().removeClass('sub-sub-active');
   //           $(this).html('&#10134').parent().addClass('sub-sub-active');
   //       }
@@ -42,11 +42,11 @@ PAGEBUILDER: reus_cddev_donation_form_js
 
  $('.mobile-nav .sub-nav-open-close').hover(function () {
         //slide up all the link lists
-        $('.sub-nav, .sub-sub-nav').slideUp('slow');
+        $('.sub-nav, .sub-sub-nav').slideToggle('slow');
         // $('.sub-nav-open-close').html('&#10133;').parent().removeClass('sub-active');
         //slide down the link list below the h3 clicked - only if its closed
         if (!$(this).next().is(':visible')) {
-            $(this).next().slideDown('slow');
+            $(this).next().slideToggle('slow');
             // $('.sub-nav-open-close').html('&#10133;').parent().removeClass('sub-active');
             // $(this).html('&#10134').parent().addClass('sub-active');
         }
