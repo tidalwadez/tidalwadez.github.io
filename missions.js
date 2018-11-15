@@ -23,30 +23,13 @@ PAGEBUILDER: reus_cddev_donation_form_js
     $('.mobile-nav').slideToggle();
   });
 
-  // $('#testList').mouseenter(function () {
-  //     $('.sub-nav').slideToggle();
-  //   });
-
-  // $('.mobile-nav .sub-sub-nav-open-close').hover(function () {
-  //       //slide up all the link lists
-  //       $('.sub-sub-nav').slideToggle();
-  //       $('.sub-sub-nav-open-close').html('&#10133;').parent().removeClass('sub-sub-active');
-  //       //slide down the link list below the h3 clicked - only if its closed
-  //       if (!$(this).next().is(':visible')) {
-  //           $(this).next().slideToggle();
-  //           $('.sub-sub-nav-open-close').html('&#10133;').parent().removeClass('sub-sub-active');
-  //           $(this).html('&#10134').parent().addClass('sub-sub-active');
-  //       }
-  //   });
-
-
- $('.mobile-nav .sub-nav-open-close').hover(function () {
+ $('.mobile-nav .sub-nav-open-close').click(function () {
         //slide up all the link lists
-        $('.sub-nav, .sub-sub-nav').slideToggle('slow');
+        $('.sub-nav, .sub-sub-nav').slideUp('slow');
         // $('.sub-nav-open-close').html('&#10133;').parent().removeClass('sub-active');
         //slide down the link list below the h3 clicked - only if its closed
         if (!$(this).next().is(':visible')) {
-            $(this).next().slideToggle('slow');
+            $(this).next().slideDown('slow');
             // $('.sub-nav-open-close').html('&#10133;').parent().removeClass('sub-active');
             // $(this).html('&#10134').parent().addClass('sub-active');
         }
