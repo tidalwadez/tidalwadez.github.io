@@ -161,8 +161,8 @@ a:hover, A:hover {
   text-transform: uppercase;
   vertical-align: middle;
 }
-a.btn-lg {
-  padding: 10px 45px;
+.btn-lg {
+  padding: 20px 100px;
 }
 
 .btn-xl {
@@ -185,37 +185,7 @@ button.btn > a {
   background-color: #c1991b !important;
   border: 1px solid #c1991b !important;
 }
-a.btn-green {
-  color: #ffffff;
-  background-color: #215732;
-  border: 1px solid #215732 !important;
-}
-a.btn-green:hover, a.btn-green:active, a.btn-green:focus {
-  color: #ffffff;
-  background-color: #173d23;
-  border: 1px solid #173d23 !important;
-}
-a.btn-border-green {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 4px solid #215732;
-  color: #215732;
-}
-a.btn-border-green:hover, a.btn-border-green:focus, a.btn-border-green:active {
-  background: #173d23;
-  border: 4px solid #173d23;
-  color: #fff;
-}
-a.btn-border-white {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 2px solid #ffffff;
-  color: #ffffff;
-  border-radius: 0;
-}
-a.btn-border-white:hover, a.btn-border-white:focus, a.btn-border-white:active {
-  background: #e87722;
-  border: 1px solid #e87722;
-  color: #fff;
-}
+
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -2248,6 +2218,12 @@ div.responsive .gift-amounts label:hover {
   color: #fff;
 }
 
+/*div.responsive .gift-amounts label:active {
+  background-image: none;
+  background-color: red;
+  color: #000;
+}*/
+
 div.responsive .gift-amounts .other-field .other {
   border: 3px solid #876600;
   border-radius: 0;
@@ -2265,6 +2241,13 @@ div.responsive .gift-amounts .other-field .other {
   width: 100px;
 }
 
+
+.gift-amounts .gift-level-container.active label {
+  background-image: none;
+  background-color: #876600;
+  color: #fff;
+}
+
 textarea#comment.comments {
   height: 150px;
   background-color: #FFF;
@@ -2276,7 +2259,9 @@ textarea#comment.comments {
 }
 
 .donate-button {
-  margin: 10px 0;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
 }
 
 .title-section, .firstname-section, .lastname-section {
@@ -2313,16 +2298,27 @@ textarea#comment.comments {
   box-sizing: border-box;
 }
 
+
 @media (max-width: 1100px) {
-textarea#comment.comments, .firstname-section, .lastname-section, .title-section, .city-section,.phone-section, .email-section, .address-section, .city-section, .state-section, .zip-section, .month-section, .year-section, .csc-section {
+textarea#comment.comments, .firstname-section, .lastname-section, .title-section, .city-section,.phone-section, .email-section, .address-section, .city-section, .state-section, .zip-section, .month-section, .year-section {
     width: 100%;
   }
+
+.csc-section {
+  width: 100%;
+  margin-bottom: 25px;
+}
 label#comment {
   width: 100%;
 }
 div.comments-field {
-  margin-top: 50px;
+  margin-top: 1px;
 }
+
+.btn-xl {
+  padding: 20px 75px;
+}
+
 }
 
 @media (max-width: 800px) {
