@@ -27,7 +27,7 @@
       <!-- <div class="hide u-full-width u-max-full-width search-bar">
         <div class="container">
           <div class="row">
-            <form action="//www.chicagosfoodbank.org/" method="get">
+            <form action="//www.chicagosfoodbank.org/" method="get">=
               <div class="eight columns text-left">
                 <input type="text" placeholder="Search..." name="s" value="" id="s" class="header-search-field" autocomplete="off" >
               </div>
@@ -108,7 +108,7 @@
   <div id="hero"></div>
   <div id="main-container" class="section-padding-large">
     <div class="container">
-      <div class="donation-form-left-container eight columns">
+      <div class="twelve-columns">
         <form name="process" id="ProcessForm" action="https://secure2.convio.net/gcfd/site/Donation2" method="post"  >
           <div class="donation-form-container responsive">
             <div class="form-title">
@@ -122,26 +122,26 @@
               Gift Amount:
             </div>
             <br />
-            <div class="one-time-giving">
+            <div id="one-time-giving">
               <div class="gift-amounts">
-                <div class="gift-amount1">
-                  <input type="radio" name="gift1" id="gift1" value="1000">
-                  <label for="gift1">$1,000</label>
+                <div class="gift-level-container gift-amount1">
+                  <input type="radio" name="gift1" id="inputgift1" value="1000">
+                  <label id="gift1">$1,000</label>
                 </div>
-                <div class="gift-amount2">
-                  <input type="radio" name="gift1" id="gift1" value="500">
-                  <label for="gift2">$500</label>
+                <div class="gift-level-container gift-amount2">
+                  <input type="radio" name="gift1" id="inputgift2" value="500">
+                  <label id="gift2">$500</label>
                 </div>
-                <div class="gift-amount3">
-                  <input type="radio" name="gift1" id="gift1" value="250">
-                  <label for="gift3">$250</label>
+                <div class="gift-level-container gift-amount3">
+                  <input type="radio" name="gift1" id="inputgift3" value="250">
+                  <label id="gift3">$250</label>
                 </div>
-                <div class="gift-amount4">
-                  <input type="radio" name="gift1" id="gift1" value="100">
-                  <label for="gift4">$100</label>
+                <div class="gift-level-container gift-amount4">
+                  <input type="radio" name="gift1" id="inputgift4" value="100" checked="checked">
+                  <label id="gift4">$100</label>
                 </div>
-                <div class="other-field">
-                  <input class="other" type="text" name="gift5" id="gift5" placeholder="Other">
+                <div class="gift-level-container other-field">
+                  <input class="other" type="text" name="gift5" id="inputgift5" placeholder="Other">
                   <!-- <label for="gift5">Other</label> -->
                 </div> 
               </div>
@@ -283,7 +283,7 @@
               <br />
               <br />
               <div class="donate-button">
-                <button class="btn btn-brown btn-xl"><a href="http://www.google.com">Donate</a></button>
+                <button class="btn btn-brown btn-xl"><a href="http://www.google.com">Donate&nbsp;&nbsp;<span id="totalGift"></span></a></button>
               </div>
             </div> 
           </div>
@@ -292,34 +292,6 @@
     </div>
   </div> 
   <!--END OF DONATION FORM-->
-  <!--RIGHT SIDE BAR-->
-  <div class="right-column-section">
-<h2 class="margin-top-40px mobile-margin-top-40px">OTHER DONATION OPTIONS</h2>
-<ul>
-<li><a href="http://chicagosfoodbank.org/donate/respond-to-mailing" target="_blank">Respond to a Mailing</a></li>
-<li><a href="https://www.chicagosfoodbank.org/financial-support/#donatebymail">Donate by Mail</a></li>
-<li><a href="Donation2?idb=[[S76:idb]]&amp;8864.donation=root&amp;df_id=8864&amp;mfc_pref=T" target="_blank">Tribute or Memorial Donation</a></li>
-<li><a href="Donation2?df_id=8892&amp;mfc_pref=T&amp;8892.donation=form1">Make a Monthly Gift</a></li>
-<li><a href="ServiceCenter?pg=list" target="_blank">Update Recurring Donation Options</a></li>
-<li><a href="http://chicagosfoodbank.org/stock-gifts" target="_blank">Stock Gifts &amp; Securities</a></li>
-<li><a href="http://chicagosfoodbank.org/daf" target="_blank">Donor Advised Fund Gifts</a></li>
-<li><a href="http://chicagosfoodbank.org/will-end-hunger-society" target="_blank">Will to End Hunger Society</a></li>
-<li><a href="https://www.chicagosfoodbank.org/food-industry-donations/" target="_blank">Food Industry Donations</a></li>
-</ul>
-</div>
-<div class="right-column-section">
-<h2 class="margin-top-40px mobile-margin-top-40px">HAVE DONATION QUESTIONS?</h2>
-<p>We're happy to help. Please contact Development Services at 773-247-3663 or <a href="https://www.chicagosfoodbank.org/contact/?subject=donor" target="_blank">send us a message.</a></p>
-</div>
-<!--
-<div class="right-column-section margin-top-40px mobile-margin-top-40px">
-            <img src="https://secure2.convio.net/gcfd/images/content/pagebuilder/donation-form-right-side-container-image.jpg" _mce_src="../images/content/pagebuilder/donation-form-right-side-container-image.jpg" alt="">
-<h2 class="margin-top-20px mobile-margin-top-20px">31 YEARS OF FIGHTING HUNGER</h2>
-<p>When Gloria Scott started working full-time at the Greater Chicago Food Depository in 1985, the organization was only six years old. Thirty-one years later, Gloria will say goodbye to a much larger Food Depository, as she begins her retirement.</p>
-<p><a class="read-more" href="#" _mce_href="#" target="_blank">READ MORE</a></p>
-</div>
--->
-  <!--END OF RIGHT SIDE BAR-->
   <!--FOOTER-->
   <div id="footer" class="section-padding-small section-padding-medium-mobile-footer">
     <div>
