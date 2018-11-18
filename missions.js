@@ -99,3 +99,20 @@ $('.gift-level-container.other-field').keypress(function(e) {
 });
 
 $('#one-time-giving input[type=radio]:checked').parent('div').addClass('active');
+
+
+
+
+  //Hacking IE 10
+//   var doc = document.documentElement;
+//   doc.setAttribute('data-useragent', navigator.userAgent);
+
+
+// //Media Query JS
+//   function checkSize(){
+//     if ($('#mobile-indicator').is(':visible')){
+//       $('.mobile-nav.hide.u-full-width.u-max-full-width').hide();
+//     } else {
+//         $('.mobile-nav.hide.u-full-width.u-max-full-width').hide();
+//     }
+//   }
