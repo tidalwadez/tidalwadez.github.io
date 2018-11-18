@@ -2338,9 +2338,10 @@ textarea.comments {
   display: block;
   margin-top: 5px;
   margin-bottom: 15px;
+  margin-right: 15px;
   width: 50%;
   border: #876600 solid 2px;
-  padding: 0px 10px;
+  padding-left: 10px;
 
 }
 
