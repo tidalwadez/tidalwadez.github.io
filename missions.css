@@ -1126,6 +1126,12 @@ html[data-useragent*='MSIE 10.0'] .top-nav-mobile > li:first-child, html[data-us
     padding: 0 25%;
   }
 }
+@media (max-width: 400px) {
+  .heroText {
+    font-size: 1rem;
+    padding: 0 25%;
+  }
+}
 /*-----------------------------------------------------------------------------------*/
 /*  13: RIGHT SIDE BAR
 /*-----------------------------------------------------------------------------------*/
