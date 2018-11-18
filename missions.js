@@ -20,6 +20,7 @@ PAGEBUILDER: reus_cddev_donation_form_js
   //Mobile Menu
   $('.menu-btn, .mobile-nav a.close-mobile-menu-btn').click(function(){
     // $('.menu-btn a').toggleClass('menu-active');
+    $('.sub-nav, .sub-sub-nav').slideUp('slow');
     $('.mobile-nav').slideToggle();
   });
 
