@@ -2338,13 +2338,17 @@ textarea.comments {
   display: block;
   margin-top: 5px;
   margin-bottom: 15px;
-  margin-right: 30px;
   width: 50%;
   border: #876600 solid 2px;
   padding-left: 10px;
 
 }
 
+@media (max-width: 450px) {
+  textarea.comments {
+    width: 100%;
+  }
+}
 .donate-button {
   margin: 50px 0;
   text-align: center;
