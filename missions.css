@@ -1129,6 +1129,7 @@ html[data-useragent*='MSIE 10.0'] .top-nav-mobile > li:first-child, html[data-us
 @media (max-width: 400px) {
   .heroText {
     font-size: 2.5rem;
+    padding: 0 5%;
   }
 }
 /*-----------------------------------------------------------------------------------*/
