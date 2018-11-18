@@ -1126,6 +1126,7 @@ html[data-useragent*='MSIE 10.0'] .top-nav-mobile > li:first-child, html[data-us
     padding: 0 25%;
   }
 }
+
 @media (max-width: 400px) {
   .heroText {
     font-size: 2.2rem;
@@ -2339,7 +2340,7 @@ textarea.comments {
   margin-bottom: 15px;
   width: 50%;
   border: #876600 solid 2px;
-  padding: 0px 0 0 10px;
+  padding: 0px 10px;
 
 }
 
