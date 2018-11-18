@@ -8,7 +8,8 @@
     <!-- <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet"> -->
 
     <!-- FAVICON -->
-    <link rel="shortcut icon" href="https://www.chicagosfoodbank.org/wp-content/themes/orbit-media/favicon.ico" />
+    <!-- <link rel="shortcut icon" href="https://www.chicagosfoodbank.org/wp-content/themes/orbit-media/favicon.ico" /> -->
+   <link rel="shortcut icon" type="image/png" href="./old-missions-favicon.png"/>
 
     <!-- FONT -->
     <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet" type="text/css">
@@ -51,7 +52,7 @@
       <div class="container">
         <div class="row">
           <div class="logo three columns">
-            <a class="navbar-logo" href="http://www.chicagosfoodbank.org/"><img src="http://lasmisiones.org/wp-content/themes/lasmisiones/images/logo.png" alt="Greater Chicago Food Depository Logo"></a>
+            <a class="navbar-logo" href=""><img src="http://lasmisiones.org/wp-content/themes/lasmisiones/images/logo.png" alt="Greater Chicago Food Depository Logo"></a>
           </div>
        <div class="navigation nine columns text-right">
 <!--          <ul class="top-nav show-desktop">
@@ -62,12 +63,12 @@
           <li><a class="btn btn-lg search-btn-mag" href="javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
          </ul> -->
          <ul class="bottom-nav">
-          <li class="show-desktop"><a href="http://www.chicagosfoodbank.org/programs-services/">Home</a></li>
-          <li class="show-desktop"><a href="http://www.chicagosfoodbank.org/get-involved/">Welcome</a></li>
-          <li class="show-desktop"><a href="http://www.chicagosfoodbank.org/about/">Get Involved</a></li>
-          <li class="show-desktop"><a href="http://www.chicagosfoodbank.org/contact/">Events</a></li>
-          <li class="show-desktop"><a href="http://www.chicagosfoodbank.org/about/">Contact Us</a></li>
-          <li class="show-desktop"><a href="http://www.chicagosfoodbank.org/contact/">Donate</a></li>
+          <li class="show-desktop"><a href="">Home</a></li>
+          <li class="show-desktop"><a href="">Welcome</a></li>
+          <li class="show-desktop"><a href="">Get Involved</a></li>
+          <li class="show-desktop"><a href="">Events</a></li>
+          <li class="show-desktop"><a href="">Contact Us</a></li>
+          <li class="show-desktop"><a href="">Donate</a></li>
           <li class="show-mobile-inline-block menu-btn"><a href="javascript:void(0)">&nbsp;<span class="open-mobile-menu"><i class="fa fa-bars"></i></span><span class="hide close-mobile-menu">&#10006;</span></a></li>
         </ul>
       </div>
@@ -105,19 +106,21 @@
   </div>
   <!---End OF HEADER-->
   <!---DONATION FORM-->
-  <div id="hero"></div>
+  <div id="hero">
+    <div class="heroText" >Donate Now</div>
+  </div>
   <div id="main-container" class="section-padding-large">
     <div class="container">
-      <div class="twelve-columns">
+      <div class="eight columns">
         <form name="process" id="ProcessForm" action="https://secure2.convio.net/gcfd/site/Donation2" method="post"  >
           <div class="donation-form-container responsive">
-            <div class="form-title">
+            <!-- <div class="form-title">
               <h3>Donate to LAS MISSIONS</h3>
             </div>
             <div class="section-title">
               One-time Donation
               <hr>
-            </div>
+            </div> -->
             <div class="section-title">
               Gift Amount:
             </div>
@@ -149,24 +152,21 @@
             <br />
             <br />
             <br />
+            <div class="section-title comment-title">
+              Comments
+            </div>
             <div class="comments-field">
-              <label id="comment">Comments:</label>
               <textarea class="comments" name="comment" id="comment" placeholder="optional"></textarea>
             </div>
-            <br />
-            <br />
             <div class="billing">
               <div class="section-title">
                 Billing Address
                 <hr>
               </div>
-              <div class="section-title">
-                Contact Name:
-              </div>
               <div class="title-section" id="title">
                 <label id="title">Title:</label> 
                 <select name="title" id="title">
-                  <option value="title">title</option>
+                  <option value="Title">Title</option>
                   <option value="Mr.">Mr.</option>
                   <option value="Mrs.">Mrs.</option>
                   <option value="Ms.">Ms.</option>
@@ -220,15 +220,6 @@
                   Payment Details
                   <hr>
                 </div>
-                <div class="section-title">
-                  Payment Method
-                </div>
-                <div class="payment-buttons">
-                  <button>Credit Card</button>
-                  <button>Direct Debit</button>
-                <div class="section-title">
-                  Payment Processed by Blackbaud
-                </div>
               <img class="payment" src="https://bbox.blackbaudhosting.com/webforms/images/cards/visa_normal.png">
               <img class="payment" src="https://bbox.blackbaudhosting.com/webforms/images/cards/mastercard_normal.png">
               <img class="payment" src="https://bbox.blackbaudhosting.com/webforms/images/cards/amex_normal.png">
@@ -280,14 +271,25 @@
                   <input type="text" name="csc" id="csc">
                 </div>
               </div>
-              <br />
-              <br />
-              <div class="donate-button">
-                <button class="btn btn-brown btn-xl"><a href="http://www.google.com">Donate&nbsp;&nbsp;<span id="totalGift"></span></a></button>
-              </div>
+            </div>
+            <br />
+            <br />
+            <div class="donate-button">
+              <button class="btn btn-brown btn-xl"><a href="">Donate&nbsp;&nbsp;<span id="totalGift"></span></a></button>
             </div> 
           </div>
         </form>
+      </div>
+      <div class="four columns rightColumn">
+        <h2>Do you have questions about making a donation?</h2>
+        <p>We would be happy to respond in the way that’s most convenient for you!</p>
+        <p>Call us at (210) 357-5602<br />
+        <hr>
+        Email us at <a href="mailto:OldSpanishMissions@archsa.org">OldSpanishMissions@archsa.org</a></p>
+        <p><strong>To donate by U.S. Mail, please send your gift by check (no cash, please) to:</strong><br />
+        Las Misiones<br />
+        Post Office Box 7804<br />
+        San Antonio, TX 78207</p>
       </div>
     </div>
   </div> 
